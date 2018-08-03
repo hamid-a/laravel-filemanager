@@ -321,3 +321,13 @@ time {
   white-space: nowrap;
   content: attr(data-label);
 }
+
+@media screen and (min-width: 768px) {
+  .rtl #main {
+    border-left: none;
+    border-right: 1px solid silver;
+  }
+}
+.rtl ul#fab {
+    padding-right: 0;
+}
